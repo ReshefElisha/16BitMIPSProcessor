@@ -1,0 +1,11 @@
+addi 15,10
+addi 1,1
+sub 15,1
+la 15,0
+add 13,15
+nor 13,15
+sw 13
+beq 15,1
+j 2
+la 15,0
+lw 15
